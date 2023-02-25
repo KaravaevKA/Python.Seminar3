@@ -80,3 +80,19 @@
 #     if num == j:
 #         count+=1
 # print(count)
+
+# Задача 18
+# import random
+# list_1 = []
+# k = int(input("Введите размер массива: "))
+# for i in range(k):
+#     n = random.randint(1, 5)
+#     list_1.append(n)
+# print(list_1)
+# num = int(input("Введите число "))
+# difference = 9999
+# for i in list_1:
+#     x = num - i
+#     if x <= difference:
+#         difference = x
+# print(difference)

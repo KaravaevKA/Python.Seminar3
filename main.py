@@ -66,3 +66,17 @@
 
 # ДОМАШНЕЕ ЗАДАНИЕ
 
+# Задача 16
+# import random
+# list_1 = []
+# k = int(input("Введите размер массива: "))
+# for i in range(k):
+#     n = random.randint(1, 6)
+#     list_1.append(n)
+# print(list_1)
+# num = int(input("Введите элемент "))
+# count = 0
+# for j in list_1:
+#     if num == j:
+#         count+=1
+# print(count)

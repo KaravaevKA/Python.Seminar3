@@ -92,7 +92,24 @@
 # num = int(input("Введите число "))
 # difference = 9999
 # for i in list_1:
-#     x = num - i
+#     x = abs(num - i)
 #     if x <= difference:
 #         difference = x
 # print(difference)
+
+# Задача 20
+n = input("Введите строку: ")
+letters = {1 : set("авеинорст"),
+           2 : set("дклмпу"),
+           3 : set("бгёья"),
+           4 : set("йы"),
+           5 : set("жзхцч"),
+           6 : set("шэю"),
+           7 : set("фщъ")
+           }
+count = 0
+for i in n:
+    for k in letters:
+        if i in letters[k]:
+            count+=k
+print(count)
